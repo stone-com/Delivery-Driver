@@ -13,5 +13,6 @@ public class FollowCamera : MonoBehaviour
     {
         // Set camera position to position of the car, minus 10 on the z axis to zoom out a bit
         transform.position = thingToFollow.transform.position + new Vector3(0, 0, -10);
+        
     }
 }
